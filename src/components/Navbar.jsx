@@ -43,7 +43,7 @@ export default function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="font-heading font-black text-white text-sm md:text-base tracking-wide">
-                Ashfaque Seat Maker
+                Asfak Seat Maker
               </div>
               <div className="text-brand-yellow text-[10px] md:text-xs font-medium tracking-widest uppercase">
                 Badkali Chowk, Mewat

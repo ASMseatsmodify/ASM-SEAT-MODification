@@ -17,7 +17,7 @@ export default function Footer() {
                 A
               </div>
               <div>
-                <div className="font-heading font-black text-white text-sm">Ashfaque Seat Maker</div>
+                <div className="font-heading font-black text-white text-sm">Asfak Seat Maker</div>
                 <div className="text-brand-yellow text-[10px] font-medium tracking-widest uppercase">Badkali Chowk, Mewat</div>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function Footer() {
             <div className="sr-only">
               Car seat upholstery Mewat, car seat covers Badkali Chowk, car interior customization Mewat Haryana,
               sofa repair Mewat, sofa upholstery Badkali, curtain stitching Mewat, car seat repair near Badkali Chowk,
-              Ashfaque Seat Maker Badkali Chowk Mewat
+              Asfak Seat Maker Badkali Chowk Mewat
             </div>
           </div>
         </div>
