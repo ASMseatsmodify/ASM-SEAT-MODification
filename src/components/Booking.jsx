@@ -78,7 +78,7 @@ export default function Booking() {
   const buildWhatsAppMessage = () => {
     const serviceLabel = SERVICE_OPTIONS.find(o => o.value === form.service)?.label || form.service
     const msg = [
-      `🔧 *New Appointment Request — Ashfaque Seat Maker*`,
+      `🔧 *New Appointment Request — Asfak Seat Makers*`,
       ``,
       `👤 *Name:* ${form.name}`,
       `📱 *Mobile:* ${form.mobile}`,
