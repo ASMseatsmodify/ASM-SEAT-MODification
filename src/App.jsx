@@ -8,6 +8,8 @@ import Booking from './components/Booking'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingButtons from './components/FloatingButtons'
+import Payment from "./components/Payment";
+
 
 export default function App() {
   return (
@@ -30,6 +32,7 @@ export default function App() {
         <WhyUs />
         <Booking />
         <Contact />
+        <Payment />
       </main>
 
       <Footer />

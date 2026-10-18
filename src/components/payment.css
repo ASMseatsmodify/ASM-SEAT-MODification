@@ -1,0 +1,170 @@
+
+.payment-section {
+  padding: 80px 24px;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+.payment-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  align-items: center;
+  gap: 70px;
+}
+
+.payment-tag {
+  color: #facc15;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.payment-info h2 {
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.2;
+  margin: 18px 0;
+}
+
+.payment-info h2 span {
+  color: #facc15;
+}
+
+.payment-info > p {
+  color: #a3a3a3;
+  line-height: 1.8;
+  max-width: 520px;
+}
+
+.payment-benefit {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  color: #e5e5e5;
+}
+
+.payment-benefit > span {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #27220a;
+  color: #facc15;
+}
+
+.payment-info .payment-note {
+  margin-top: 28px;
+  font-size: 13px;
+}
+
+.payment-card {
+  background: #171717;
+  border: 1px solid #333;
+  border-radius: 22px;
+  padding: 26px;
+  box-shadow: 0 20px 60px #0005;
+}
+
+.payment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-card-header h3 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.payment-card-header p {
+  color: #a3a3a3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.upi-badge {
+  border: 1px solid #454545;
+  border-radius: 8px;
+  padding: 7px 10px;
+  color: #facc15;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.qr-frame {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  padding: 14px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.qr-frame img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.payment-merchant {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.merchant-dot {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #29240d;
+  color: #facc15;
+}
+
+.payment-merchant strong {
+  font-size: 14px;
+}
+
+.payment-merchant p {
+  color: #a3a3a3;
+  font-size: 12px;
+  margin: 5px 0 0;
+}
+
+.payment-divider {
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+}
+
+.payment-instruction {
+  color: #b5b5b5;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .payment-section {
+    padding: 55px 18px;
+  }
+
+  .payment-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .payment-card {
+    width: 100%;
+    max-width: 380px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+}
