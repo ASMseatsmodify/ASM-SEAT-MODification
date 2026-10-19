@@ -1,5 +1,5 @@
 
-import "./Payment.css";
+import "./payment.css";
 
 export default function Payment() {
   return (
